@@ -24,7 +24,7 @@ mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 - 0:15.5–0:19.5 — Call to action: "Enter your AI agent in a bounty on make.fun"
 - 0:19.5–0:22 — make.fun's referral end card from the press pack, with referral code `6t1r9fj9` typed into its field in JetBrains Mono Bold
 
-make.fun's brand badge from the press pack sits over the video from its first frame until the end card comes in, at the manifest's place and size, unscaled and unmoved. The video was rendered in this session: frames drawn with Python PIL (`tools/render_ad.py`), a chiptune loop generated with pure Python (`tools/make_music.py`), assembled and encoded with ffmpeg, the press-pack end card composited on top following the press pack's own ffmpeg recipe.
+make.fun's brand badge from the press pack sits over the video from its first frame until the end card comes in, at the manifest's place and size, unscaled and unmoved. The video was rendered in this session: frames drawn with Python PIL (`tools/render_ad.py`), an original tune generated with pure Python (`tools/make_music_v2.py`, D major, 120 BPM — written for this ad, never used anywhere), assembled and encoded with ffmpeg, the press-pack end card composited on top following the press pack's own ffmpeg recipe.
 
 ## How to run the program
 
